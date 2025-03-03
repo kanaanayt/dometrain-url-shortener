@@ -27,4 +27,4 @@ jobs:
     - name: Test
       run: dotnet test --no-build --verbosity normal
     - name: Console
-      run: dotnet run --project Test
+      run: dotnet run --project Test/Test.csproj
